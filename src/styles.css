@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: #0b0f1a;
+  color: white;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  background: #020617;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10%;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero span { color: #38bdf8; }
+
+section {
+  padding: 100px 10%;
+}
+
+.grid span {
+  background: #020617;
+  padding: 15px;
+  margin: 8px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  margin-top: 20px;
+}
