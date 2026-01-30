@@ -40,3 +40,30 @@ section {
   padding: 20px;
   margin-top: 20px;
 }
+
+.typing {
+  color: #38bdf8;
+  font-weight: 500;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+.card:hover,
+.grid span:hover {
+  box-shadow: 0 0 20px #38bdf8;
+  transform: translateY(-6px);
+  transition: 0.3s;
+}
+
+.hero img {
+  box-shadow: 0 0 60px rgba(56, 189, 248, 0.7);
+  border-radius: 50%;
+}
+
