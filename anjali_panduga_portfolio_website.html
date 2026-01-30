@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anjali Panduga | Data Scientist & Data Analyst</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- AOS Animations (same style as Arun's) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{background:#0b0f1a;color:#e5e7eb;overflow-x:hidden}
+    a{text-decoration:none;color:inherit}
+
+    /* NAVBAR */
+    nav{
+      position:fixed;top:0;width:100%;z-index:1000;
+      display:flex;justify-content:space-between;align-items:center;
+      padding:18px 10%;background:rgba(11,15,26,.95)
+    }
+    nav h2{color:#38bdf8;font-weight:600}
+    nav ul{list-style:none;display:flex;gap:30px}
+    nav ul li a{font-weight:500;transition:.3s}
+    nav ul li a:hover{color:#38bdf8}
+
+    /* HERO */
+    .hero{min-height:100vh;display:flex;align-items:center;gap:60px;padding:120px 10%}
+    .hero-text h1{font-size:3rem}
+    .hero-text h1 span{color:#38bdf8}
+    .hero-text h3{margin:15px 0;font-weight:500;color:#94a3b8}
+    .hero-text p{max-width:520px;margin-top:15px;color:#cbd5f5}
+    .btn{
+      display:inline-block;margin-top:30px;padding:14px 34px;
+      border-radius:30px;background:#38bdf8;color:#020617;font-weight:600
+    }
+    .hero-img img{
+      width:320px;border-radius:50%;
+      box-shadow:0 0 60px rgba(56,189,248,.6)
+    }
+
+    section{padding:100px 10%}
+    h2{font-size:2.3rem;margin-bottom:25px;color:#38bdf8}
+
+    /* ABOUT */
+    .about p{max-width:900px;color:#cbd5f5}
+
+    /* SKILLS */
+    .skills-grid{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px
+    }
+    .skill-box{
+      background:#020617;border-radius:16px;padding:30px;
+      box-shadow:0 0 25px rgba(56,189,248,.08)
+    }
+
+    /* PROJECTS */
+    .projects-grid{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:30px
+    }
+    .project{
+      background:#020617;padding:28px;border-radius:18px;
+      box-shadow:0 0 35px rgba(56,189,248,.1);
+      transition:.4s
+    }
+    .project:hover{transform:translateY(-10px)}
+    .project a{display:inline-block;margin-top:12px;margin-right:12px;color:#38bdf8}
+
+    /* CONTACT */
+    .contact p{margin:12px 0}
+    .contact i{color:#38bdf8;margin-right:8px}
+
+    footer{text-align:center;padding:25px;background:#020617;color:#94a3b8}
+
+    @media(max-width:900px){
+      .hero{flex-direction:column;text-align:center}
+      .hero-img img{width:260px}
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <h2>Anjali</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-text" data-aos="fade-right">
+    <h1>Hi, I'm <span>Anjali Panduga</span></h1>
+    <h3>Data Scientist | Data Analyst</h3>
+    <p>
+      Highly motivated fresher with strong foundation in Data Analysis,
+      Machine Learning, and Python. Passionate about working with real‑world
+      datasets and building impactful data-driven solutions.
+    </p>
+    <a href="#projects" class="btn">View Projects</a>
+  </div>
+
+  <div class="hero-img" data-aos="fade-left">
+    <img src="https://images.generated.photos/8XjzZfAI-girl.jpg" alt="AI Girl">
+  </div>
+</section>
+
+<section class="about" id="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>
+    I enjoy working with real-world datasets to clean data, perform exploratory
+    data analysis, and extract meaningful insights. I have hands-on experience
+    in building end-to-end machine learning projects and deploying interactive
+    applications using Streamlit.
+  </p>
+</section>
+
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-box">Programming: Python, SQL</div>
+    <div class="skill-box">Libraries: Pandas, NumPy, Matplotlib, Seaborn</div>
+    <div class="skill-box">Machine Learning: LR, RF, DT, KNN, Naive Bayes</div>
+    <div class="skill-box">Deep Learning: Neural Network Basics</div>
+    <div class="skill-box">Data Analysis: EDA, Feature Engineering</div>
+    <div class="skill-box">Tools: Streamlit, Git, GitHub, Spyder</div>
+    <div class="skill-box">Databases: MySQL</div>
+    <div class="skill-box">Statistics: Probability & Hypothesis Testing</div>
+  </div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project">
+      <h3>Multilingual Translation & TTS App</h3>
+      <p>Streamlit app supporting 50+ languages with text-to-speech.</p>
+      <a href="https://github.com/AnjaliPanduga/Language-Translation-App" target="_blank">GitHub</a>
+      <a href="https://multilingual-language-translation-app.streamlit.app/" target="_blank">Live</a>
+    </div>
+
+    <div class="project">
+      <h3>Customer Churn Prediction</h3>
+      <p>ML classification project for predicting customer churn.</p>
+      <a href="https://github.com/AnjaliPanduga/Customer-Churn-Prediction-" target="_blank">GitHub</a>
+      <a href="https://customer-churn-pediction-app.streamlit.app/" target="_blank">Live</a>
+    </div>
+
+    <div class="project">
+      <h3>Student Registration Dual App</h3>
+      <p>Python + MySQL system using Tkinter & Streamlit.</p>
+      <a href="https://github.com/AnjaliPanduga/student-registration-dual-app" target="_blank">GitHub</a>
+      <a href="https://student-registration-dual-app.streamlit.app/" target="_blank">Live</a>
+    </div>
+
+    <div class="project">
+      <h3>🥑 Avocado Price Prediction</h3>
+      <p>Regression models with Streamlit deployment.</p>
+      <a href="https://github.com/AnjaliPanduga/Avocado-Price-Prediction-Using-Machine-Learning" target="_blank">GitHub</a>
+      <a href="https://avocado-price-prediction-using-machine-learning.streamlit.app/" target="_blank">Live</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact" data-aos="fade-up">
+  <h2>Contact</h2>
+  <p><i class='bx bx-envelope'></i> pandugaanjali2003@gmail.com</p>
+  <p><i class='bx bxl-linkedin'></i> <a href="https://www.linkedin.com/in/anjali-panduga-88935a266/" target="_blank">LinkedIn</a></p>
+  <p><i class='bx bxl-github'></i> <a href="https://github.com/AnjaliPanduga" target="_blank">GitHub</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Anjali Panduga | Portfolio</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({duration:1200,once:true});</script>
+
+</body>
+</html>
