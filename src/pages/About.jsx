@@ -12,6 +12,7 @@ export default function About() {
       <div className="content">
         <div>
           <h1>About Me</h1>
+
           <p>
             I am a highly motivated fresher with a strong foundation in{" "}
             <b>Data Analysis, Machine Learning, and Python</b>. I enjoy working
@@ -35,3 +36,4 @@ export default function About() {
     </motion.section>
   );
 }
+
