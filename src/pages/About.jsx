@@ -12,7 +12,7 @@ export default function About() {
             Machine Learning, and Python</b>. I enjoy working with real-world datasets
             to clean data, perform exploratory data analysis, and extract meaningful
             insights that support data-driven decision-making.
-            <br><br>
+           <br /><br />
             I have hands-on experience in building <b>end-to-end machine learning projects</b>,
             comparing multiple models, and deploying interactive applications using
             <b>Streamlit</b>. I am continuously improving my skills in analytics,
