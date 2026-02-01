@@ -3,8 +3,8 @@ import girl from "../assets/skills-girl.png";
 
 export default function Skills() {
   return (
-    <motion.section
-      className="page"
+    <motion.section id="skills"
+      className="page" 
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -40 }}
@@ -56,3 +56,4 @@ export default function Skills() {
     </motion.section>
   );
 }
+
