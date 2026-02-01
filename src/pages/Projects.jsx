@@ -3,7 +3,7 @@ import girl from "../assets/projects-girl.png";
 
 export default function Projects() {
   return (
-    <motion.section
+    <motion.section id="projects"
       className="page"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
@@ -127,4 +127,3 @@ export default function Projects() {
   );
 }
 
-    
