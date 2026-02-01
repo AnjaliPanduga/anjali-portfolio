@@ -22,7 +22,7 @@ const educationData = [
 
 export default function Education() {
   return (
-    <motion.section
+    <motion.section id="education"
       className="page"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
