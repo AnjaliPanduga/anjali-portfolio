@@ -3,7 +3,7 @@ import girl from "../assets/home-girl.png";
 
 export default function Home() {
   return (
-    <motion.section
+    <motion.section id="home"
       className="page"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
