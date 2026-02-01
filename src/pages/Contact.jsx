@@ -3,7 +3,7 @@ import girl from "../assets/contact-girl.png";
 
 export default function Contact() {
   return (
-    <motion.section
+    <motion.section id="contact"
       className="page"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
